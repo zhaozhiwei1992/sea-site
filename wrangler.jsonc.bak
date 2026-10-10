@@ -1,7 +1,0 @@
-{
-  "name": "sea-tools",
-  "compatibility_date": "2026-10-10",
-  "assets": {
-    "directory": "./dist"
-  }
-}
