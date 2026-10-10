@@ -1,12 +1,8 @@
 {
   "siteName": "Sea Tools",
-  "domain": "https://sea-tools.pages.dev",
+  "domain": "sea-site.zhaozhiweishanxi.workers.dev",
   "description": "Free online tools: percentage calculator, age calculator, temperature converter. Fast, private, no sign-up.",
   "contactEmail": "you@example.com",
   "ga4Id": "",
-  "tools": [
-    "percentage-calculator",
-    "age-calculator",
-    "temperature-converter"
-  ]
+  "tools": ["percentage-calculator", "age-calculator", "temperature-converter"]
 }
