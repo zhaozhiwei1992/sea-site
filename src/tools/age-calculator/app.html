@@ -1,0 +1,21 @@
+<div class="calc" id="age-calc">
+  <div class="fields">
+    <div class="field">
+      <label for="ac-dob">Date of birth</label>
+      <input id="ac-dob" type="date" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label for="ac-asof">Age as of (optional)</label>
+      <input id="ac-asof" type="date" autocomplete="off" />
+      <p class="hint">Defaults to today.</p>
+    </div>
+  </div>
+
+  <button type="button" class="btn" id="ac-calc">Calculate</button>
+
+  <div class="result hidden" id="ac-result" aria-live="polite">
+    <p class="result-line">You are <strong id="ac-age"></strong> old.</p>
+    <p class="result-sub">That is <strong id="ac-days"></strong> days in total.</p>
+    <p class="result-sub">Your next birthday is in <strong id="ac-next-in"></strong> days <span id="ac-next-date"></span>.</p>
+  </div>
+</div>

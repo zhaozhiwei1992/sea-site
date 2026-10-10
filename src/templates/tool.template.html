@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="keywords" content="{{keywords}}" />
+  <link rel="canonical" href="{{domain}}/tools/{{slug}}/" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{domain}}/tools/{{slug}}/" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+  {{header}}
+  <main class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> › <span>{{name}}</span>
+    </nav>
+
+    <h1>{{name}}</h1>
+    <p class="tagline">{{tagline}}</p>
+
+    <section class="tool-box">{{appHtml}}</section>
+
+    <!-- AD_SLOT: 申请到 AdSense 后把占位注释替换成 adsbygoogle 广告单元 -->
+    <div class="ad-slot"></div>
+
+    <section class="prose">
+      <h2>How to use {{name}}</h2>
+      <ol>{{howToItems}}</ol>
+    </section>
+
+    <section class="prose faq">
+      <h2>Frequently Asked Questions</h2>
+      {{faqItems}}
+    </section>
+
+    <section class="prose related">
+      <h2>Related tools</h2>
+      <p>Try these other free tools: {{relatedLinks}}</p>
+    </section>
+  </main>
+  {{footer}}
+  <script src="/assets/js/{{slug}}.js" defer></script>
+  {{ga4}}
+</body>
+</html>

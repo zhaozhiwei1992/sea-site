@@ -1,0 +1,20 @@
+{
+  "slug": "percentage-calculator",
+  "name": "Percentage Calculator",
+  "tagline": "Calculate percentages instantly — what is X% of Y, X is what percent of Y, and percentage increase or decrease between two numbers.",
+  "title": "Percentage Calculator - Calculate Percentages Online (Free)",
+  "description": "Free online percentage calculator. What is X% of Y, X is what percent of Y, percentage increase or decrease between two values. Instant results, works on any device, no sign-up.",
+  "keywords": ["percentage calculator", "percent calculator", "percentage increase calculator", "percentage difference calculator"],
+  "howTo": [
+    "Pick a calculation mode: X% of Y, X is what percent of Y, or percentage change.",
+    "Type your numbers into the two fields.",
+    "The result updates instantly as you type."
+  ],
+  "faq": [
+    { "q": "How do I calculate what X percent of Y is?", "a": "Multiply Y by X and divide by 100. For example, 20% of 50 is (20 × 50) / 100 = 10. The calculator does this for you instantly." },
+    { "q": "How do I calculate percentage increase?", "a": "Subtract the original value from the new value, divide by the original value, and multiply by 100. Increase from 80 to 100 is (100 − 80) / 80 × 100 = 25%." },
+    { "q": "What is 20% of 50?", "a": "20% of 50 is 10. Type 20 and 50 into the calculator to verify." },
+    { "q": "Is this percentage calculator free?", "a": "Yes, it is completely free, works offline in your browser, and requires no sign-up. Your numbers never leave your device." },
+    { "q": "Can I use the percentage calculator on my phone?", "a": "Yes, the calculator is fully responsive and works on mobile, tablet, and desktop." }
+  ]
+}

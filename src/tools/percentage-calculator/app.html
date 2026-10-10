@@ -1,0 +1,22 @@
+<div class="calc" id="percentage-calc">
+  <div class="modes" role="tablist" aria-label="Calculation modes">
+    <button type="button" class="mode-btn active" data-mode="of" aria-selected="true">X% of Y</button>
+    <button type="button" class="mode-btn" data-mode="what" aria-selected="false">X is what % of Y</button>
+    <button type="button" class="mode-btn" data-mode="change" aria-selected="false">% increase / decrease</button>
+  </div>
+
+  <div class="fields">
+    <div class="field">
+      <label for="pc-x">First number (X)</label>
+      <input id="pc-x" type="number" inputmode="decimal" placeholder="e.g. 20" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label for="pc-y">Second number (Y)</label>
+      <input id="pc-y" type="number" inputmode="decimal" placeholder="e.g. 50" autocomplete="off" />
+    </div>
+  </div>
+
+  <div class="result" id="pc-result" aria-live="polite">
+    <p class="result-line">20% of 50 is <strong>10</strong></p>
+  </div>
+</div>

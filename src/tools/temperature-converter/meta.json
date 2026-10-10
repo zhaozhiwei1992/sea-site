@@ -1,0 +1,20 @@
+{
+  "slug": "temperature-converter",
+  "name": "Temperature Converter",
+  "tagline": "Convert temperature between Celsius (°C), Fahrenheit (°F), and Kelvin (K) instantly. Type in one unit and all others update live.",
+  "title": "Temperature Converter - Celsius to Fahrenheit to Kelvin (Free)",
+  "description": "Free temperature converter: convert Celsius, Fahrenheit, and Kelvin instantly. Type in any unit and the others update live. Includes the exact conversion formulas.",
+  "keywords": ["temperature converter", "celsius to fahrenheit", "fahrenheit to celsius", "kelvin to celsius", "temperature conversion"],
+  "howTo": [
+    "Type a value into any of the three fields: Celsius, Fahrenheit, or Kelvin.",
+    "The other two units update instantly as you type.",
+    "Clear a field to reset the conversion."
+  ],
+  "faq": [
+    { "q": "How do I convert Celsius to Fahrenheit?", "a": "Multiply the Celsius value by 9/5 and add 32. For example, 100°C = (100 × 9/5) + 32 = 212°F." },
+    { "q": "How do I convert Fahrenheit to Celsius?", "a": "Subtract 32 from the Fahrenheit value and multiply by 5/9. For example, 68°F = (68 − 32) × 5/9 = 20°C." },
+    { "q": "What is the difference between Celsius and Kelvin?", "a": "Kelvin starts at absolute zero (−273.15°C) and uses the same step size as Celsius. To convert: K = °C + 273.15." },
+    { "q": "What is 100°C in Fahrenheit?", "a": "100°C equals 212°F, the boiling point of water at sea level." },
+    { "q": "Is this temperature converter free?", "a": "Yes, it is free, private, and runs entirely in your browser with no server calls and no registration." }
+  ]
+}

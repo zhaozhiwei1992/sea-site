@@ -1,0 +1,20 @@
+{
+  "slug": "age-calculator",
+  "name": "Age Calculator",
+  "tagline": "Find out your exact age in years, months, and days from your date of birth, plus how many days until your next birthday.",
+  "title": "Age Calculator - How Old Am I? Calculate Age by Date of Birth",
+  "description": "Free age calculator: enter your date of birth and get your exact age in years, months, and days, and see how many days until your next birthday. Works as of any date.",
+  "keywords": ["age calculator", "how old am i", "age calculator by date of birth", "days until my birthday"],
+  "howTo": [
+    "Pick your date of birth.",
+    "Optionally set an 'as of' date (defaults to today).",
+    "Click Calculate to see your exact age and days until your next birthday."
+  ],
+  "faq": [
+    { "q": "How does the age calculator work?", "a": "It compares your date of birth with the 'as of' date and computes the exact number of years, months, and days between them, counting leap years correctly." },
+    { "q": "How old will I be on a specific date?", "a": "Use the optional 'Age as of' field: pick any future or past date and the calculator will compute your age at exactly that date." },
+    { "q": "How many days until my next birthday?", "a": "The calculator shows the date of your next birthday and the number of days remaining, based on the current date." },
+    { "q": "Is my birth date safe?", "a": "Yes. All calculations happen locally in your browser. Your date of birth is never sent to any server or stored anywhere." },
+    { "q": "Can I calculate someone else's age?", "a": "Yes, simply enter another person's date of birth in the calculator." }
+  ]
+}
