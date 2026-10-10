@@ -44,3 +44,4 @@ mkdir src/tools/my-tool
 1. `site.json` 的 `domain` 改成真实域名，重新 build（否则 canonical/sitemap 指向占位域名）
 2. `index.html` 里 AdSense 广告位开广告后替换占位注释
 3. 视频/文章流量起来后按笔记路线迁 Spring Boot + Thymeleaf（本结构 1:1 映射）
+
