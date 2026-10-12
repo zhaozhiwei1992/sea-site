@@ -1,8 +1,8 @@
 {
   "siteName": "Sea Tools",
-  "domain": "sea-site.zhaozhiweishanxi.workers.dev",
+  "domain": "zwkits.com",
   "description": "Free online tools: percentage calculator, age calculator, temperature converter. Fast, private, no sign-up.",
-  "contactEmail": "you@example.com",
+  "contactEmail": "zhaozhiweishanxi@gmail.com",
   "ga4Id": "",
   "tools": ["percentage-calculator", "age-calculator", "temperature-converter"]
 }
